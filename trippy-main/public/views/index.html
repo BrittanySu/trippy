@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html ng-app="Trippy" class="ng-scope">
+<head>
+
+  <title>Trippy</title>
+  <meta charset="utf-8">
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Questrial Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="stylesheet" type="text/css" href="/css/landingpage.css">
+  <link rel="stylesheet" type="text/css" href="/css/itinerary.css">
+  <link rel="stylesheet" type="text/css" href="/css/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="/css/footer.css">
+  <link rel="stylesheet" type="text/css" href="/css/loginSignup.css">
+  <link rel="stylesheet" type="text/css" href="/css/hidingcontent.css">
+  <link rel="stylesheet" type="text/css" href="/css/singleItinerary.css">
+  <link rel="stylesheet" type="text/css" href="/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/css/mediaqueries.css">
+  <!-- Angular -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+  <base href="/" />
+</head>
+<body ng-controller="AppCtrl" class="ng-scope">
+
+
+
+  <!-- Navbar -->
+  <div ng-include="'/views/partials/navbar-partial.html'" class="ng-scope"></div>
+    <div class="navbar ng-scope"></div>
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand hide-on-med-and-down" href="/">Trippy</a>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div ng-show="!user" class="dropdown pull-right">
+      <button class="btn btn-signup dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+        Sign In
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#" data-toggle="modal" data-target=".login">Login</a></li>
+        <li><a href="#" data-toggle="modal" data-target=".signup">Sign Up</a></li>
+      </ul>
+    </div>
+    <div ng-show="user" class="dropdown pull-right ng-hide">
+      <button class="btn btn-logged-in dropdown-toggle ng-binding" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+        
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="/">Home</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/">Profile</a></li>
+        <li><a href="/itineraries">All Itineraries</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a ng-click="logout()">Log Out</a></li>
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+</div>
+  <!-- Login Modal -->
+  <div ng-include="'/views/partials/login-modal-partial.html'" class="ng-scope">
+     <div ng-controller="AppCtrl" class="ng-scope"></div>
+       <div class="modal fade login dismiss" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-md">
+         <div class="modal-content">
+           <form class="form-horizontal ng-pristine ng-valid ng-valid-email">
+             <h3 class="loginSignup">Sign-Up</h3>
+          <div class="row">
+  <!-- Signup Modal -->
+  <div ng-include="'/views/partials/signup-modal-partial.html'"></div>
+     
+  <!-- Views -->
+  <div>
+    <ui-view></ui-view>
+  <div>
+
+  <!-- Contact Modal -->
+  <div ng-include="'/views/partials/contact-modal-partial.html'"></div>
+
+
+
+  <!-- SCRIPTS -->
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- Angular Google Maps -->
+  <script src="//rawgit.com/angular-ui/angular-google-maps/2.1.5/dist/angular-google-maps.min.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <!-- Lodash -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-md5/0.1.10/angular-md5.min.js"></script>
+  <!-- Angular app controllers and states -->
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/fixmapsize.js"></script>
+  <script type="text/javascript" src="js/controllers/formController.js"></script>
+  <script type="text/javascript" src="js/configs/appStates.js"></script>
+  <script type="text/javascript" src="js/controllers/rootController.js"></script>
+  <script type="text/javascript" src="js/controllers/dashboard-controller.js"></script>
+  <script type="text/javascript" src="js/controllers/itinerariesController.js"></script>
+  <script type="text/javascript" src="js/controllers/detailsController.js"></script>
+  <script type="text/javascript" src="js/controllers/userController.js"></script>
+  <script type="text/javascript" src="js/directives/mapDirective.js"></script>
+  <!-- Custom Scripts -->
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

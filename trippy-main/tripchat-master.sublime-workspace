@@ -1,0 +1,395 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bburrrito/Desktop/eatdaburger/config/connection.js",
+		"/Users/bburrrito/Desktop/eatdaburger/config/orm.js",
+		"/Users/bburrrito/Desktop/eatdaburger/controllers/controller.js",
+		"/Users/bburrrito/Desktop/eatdaburger/database/schema.sql",
+		"/Users/bburrrito/Desktop/eatdaburger/database/seeds.sql",
+		"/Users/bburrrito/Desktop/eatdaburger/models/burger.js",
+		"/Users/bburrrito/Desktop/eatdaburger/views/main.handlebars",
+		"/Users/bburrrito/Desktop/eatdaburger/views/index.handlebars",
+		"/Users/bburrrito/Desktop/Homework/htmlroutes.js",
+		"/Users/bburrrito/Desktop/practice/serverpractice.js",
+		"/Users/bburrrito/Downloads/02-FinalApp/view.html",
+		"/Users/bburrrito/Downloads/02-FinalApp/add.html",
+		"/Users/bburrrito/Desktop/practice/serverpractice2.js",
+		"/Users/bburrrito/Downloads/02-FinalApp/server.js",
+		"/Users/bburrrito/Desktop/practice/jpractice.html",
+		"/Users/bburrrito/Desktop/Homework/Giphy/GreatBay.html",
+		"/Users/bburrrito/Desktop/Homework/Giphy/GreatBay.js",
+		"/Users/bburrrito/Desktop/Homework/Giphy/bamazon.sql",
+		"/Users/bburrrito/Desktop/Homework/Giphy/bamazon.js",
+		"/Users/bburrrito/Desktop/Homework/Giphy/giphy.html",
+		"/Users/bburrrito/Desktop/Homework/Giphy/mysql.js",
+		"/Users/bburrrito/Desktop/nodepractice2/nodeinquirepractice.js",
+		"/Users/bburrrito/Desktop/Homework/Giphy/giphy.css",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/js/tamagatchi.js",
+		"/Users/bburrrito/Desktop/Homework/Firebase/firebase.json",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/js/prototype.js",
+		"/Users/bburrrito/Desktop/nodepractice2/nodegeoclock.js",
+		"/Users/bburrrito/Desktop/Homework/Giphy/giphy.js",
+		"/Users/bburrrito/Desktop/Homework/Giphy/index.php",
+		"/Users/bburrrito/Desktop/practice/practice1.html",
+		"/Users/bburrrito/Desktop/Homework/Firebase/firebase.js",
+		"/Users/bburrrito/Desktop/Homework/Firebase/bootstrap.js",
+		"/Users/bburrrito/Desktop/Homework/Firebase/firebase.html",
+		"/Users/bburrrito/Desktop/Homework/Firebase/moment.js",
+		"/Users/bburrrito/Desktop/Homework/Firebase/firebase.css",
+		"/Users/bburrrito/Desktop/Homework/liri.json",
+		"/Users/bburrrito/Desktop/Homework/.gitignore",
+		"/Users/bburrrito/Desktop/Homework/random.txt",
+		"/Users/bburrrito/Desktop/Homework/keys.js",
+		"/Users/bburrrito/Desktop/Homework/liri2.js",
+		"/Users/bburrrito/Desktop/Homework/liri.js",
+		"/Users/bburrrito/Desktop/Homework/liri.txt",
+		"/Users/bburrrito/Desktop/NodePractice/run.js",
+		"/Users/bburrrito/Desktop/NodePractice/bands.js",
+		"/Users/bburrrito/Desktop/nodepractice2/bestthingsever.js",
+		"/Users/bburrrito/Desktop/nodepractice2/best_things_ever.txt",
+		"/Users/bburrrito/Desktop/NodePractice/calculator.js",
+		"/Users/bburrrito/Desktop/NodePractice/sriracha.js",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/js/sriracha.js",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/css/main.css",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/css/bootstrap-theme.css",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/js/signin.js",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/js/google-map.js",
+		"/Users/bburrrito/Desktop/DoggieDaycare/sidebar-right.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/signin.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/signup.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/sidebar-left.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/about.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/contact.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/index.html",
+		"/Users/bburrrito/Desktop/DoggieDaycare/assets/js/app.js",
+		"/Users/bburrrito/Desktop/test/test1.html",
+		"/Users/bburrrito/Downloads/DoggieDaycare/test1.css",
+		"/Users/bburrrito/Downloads/DoggieDaycare/assets/css/bootstrap-theme.css",
+		"/Users/bburrrito/Downloads/Progressus 2/assets/css/font-awesome.min.css",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/doggiedaycare.html",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/doggiedaycare.css",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/composer.json",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/giphy.css",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/index.php",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/triviareset.css",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/triviagame.css",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/triviagame.html",
+		"/Users/bburrrito/Desktop/practice/practice1.css",
+		"/Users/bburrrito/Downloads/startbootstrap-creative-1.0.2/css/creative.css",
+		"/Users/bburrrito/Downloads/startbootstrap-creative-1.0.2/index.html",
+		"/Users/bburrrito/Downloads/startbootstrap-creative-1.0.2/css/bootstrap.css",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/timer.html",
+		"/Users/bburrrito/Downloads/startbootstrap-creative-1.0.2/css/bootstrap.min.css",
+		"/Users/bburrrito/Downloads/startbootstrap-creative-1.0.2/css/animate.min.css",
+		"/Users/bburrrito/Downloads/CrystalCollector.js",
+		"/Users/bburrrito/Downloads/CrystalCollector.json",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/googlemaps.html",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/week5practice.html",
+		"/Users/bburrrito/Downloads/CrystalCollector.php",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/week5practiceanswer.html",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/musicplayer.html",
+		"/Users/bburrrito/Downloads/clickjson_starter.html",
+		"/Users/bburrrito/Downloads/CrystalCollector.html",
+		"/Users/bburrrito/Downloads/CrystalCollector.css",
+		"/Users/bburrrito/Desktop/practice1.js",
+		"/Users/bburrrito/Desktop/practice1.html",
+		"/Users/bburrrito/Downloads/Stop Watch/stopwatch.js",
+		"/Users/bburrrito/Downloads/Stop Watch/5.1.13_stopwatch.html",
+		"/Users/bburrrito/Downloads/fridge_starter/fridge.html",
+		"/Users/bburrrito/Downloads/fridge_starter/coinflip.html",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/coinflip.js",
+		"/Users/bburrrito/Downloads/Coin Flip Solution/practicegame.html",
+		"/Users/bburrrito/Downloads/Coin Flip Solution.zip",
+		"/Users/bburrrito/Downloads/fridge_starter/fridge.png",
+		"/Users/bburrrito/Downloads/fridge_starter.zip",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/rockpaperscissorsanswers.html",
+		"/Users/bburrrito/Desktop/week3homework/week-3-homework.js",
+		"/Users/bburrrito/Desktop/week3homework/week-3-homework.css",
+		"/Users/bburrrito/Desktop/week3homework/week-3-homework.html",
+		"/Users/bburrrito/Desktop/week3homework/week-3-homework2.html",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/practice3.css",
+		"/Users/bburrrito/Desktop/practice/jspractice3.html",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/javascriptpractice2.html",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/practice1.css",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/JavascriptPracticeClass",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/practice3.html",
+		"/Users/bburrrito/Desktop/JavaScriptTutorial/practice1.html",
+		"/Users/bburrrito/Documents/rockpaperscissors.html",
+		"/Users/bburrrito/Documents/rockpaperscissors2.html",
+		"/Users/bburrrito/Desktop/BootstrapHomeworkBio.html",
+		"/Users/bburrrito/Desktop/practice/index.php",
+		"/Users/bburrrito/Desktop/Homework/homework1.html",
+		"/Users/bburrrito/Desktop/Homework/homework1.css",
+		"/Users/bburrrito/Desktop/bootcamp/Week1/homeworkredo.html",
+		"/Users/bburrrito/Desktop/bootcamp/Week1/homeworkredo.css",
+		"/Users/bburrrito/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bburrrito/Desktop/bootcamp/Week1/javascriptpractice.html",
+		"/Users/bburrrito/Desktop/bootstrapthing.html",
+		"/Users/bburrrito/Desktop/practice/junkpracticefile.html",
+		"/Users/bburrrito/Desktop/practice/junkpracticefile2.html",
+		"/Users/bburrrito/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bburrrito/Desktop/bootcamp/Week2/pseudopractice.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"list",
+			"listening",
+			"server",
+			"database",
+			"sql",
+			".css",
+			"main.css",
+			"home-heading",
+			"ru",
+			"nav",
+			"btn",
+			"survey",
+			"h4",
+			"click",
+			"onclick",
+			"button",
+			"h4",
+			"js",
+			"html",
+			"res.",
+			"cat",
+			"secret",
+			"authentication",
+			"secret",
+			".com",
+			"firebase",
+			"firebaseio.com",
+			"addtrain",
+			"frequency",
+			"trainName",
+			"firsttrain",
+			"destinationinput",
+			"tweets",
+			"my last",
+			"twitter",
+			"keys",
+			"key",
+			"consumer",
+			"key",
+			"js",
+			"json",
+			"\">\n",
+			"input",
+			"container-full",
+			"top-margin",
+			"margin",
+			"ul",
+			"ol",
+			"row",
+			"div",
+			"body",
+			"panel",
+			"control",
+			"input",
+			"form-control",
+			"form",
+			"position",
+			"active",
+			"panel",
+			"row",
+			"body",
+			"panel",
+			"label",
+			"top-mar",
+			"email",
+			"text",
+			"input",
+			"form",
+			"span",
+			"text",
+			"text danger",
+			"input",
+			"maincontent",
+			"col",
+			"col-xs",
+			"form",
+			"form-control",
+			"form",
+			"email",
+			"map",
+			"load",
+			"pyrmont",
+			"map",
+			"map-button",
+			"mapbutton",
+			"highlight",
+			"jumbo",
+			"container",
+			"div",
+			"row",
+			"h4",
+			"fa",
+			"fa-fa",
+			"h4",
+			"main",
+			"body",
+			"jumbotron",
+			"overflow",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tripchat-master.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
